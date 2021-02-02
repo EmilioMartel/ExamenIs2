@@ -1,6 +1,4 @@
-package view;
-
-import model.User;
+package model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -36,7 +34,7 @@ public class SubastaHistory {
     public String toString() {
         String res = "Historial =>\n ";
         for(Double key: history.keySet()) {
-            res += "Precio: " + key + " Usuario: " + history.get(key).getIdUser() + "--" + history.get(key).getName() + "\n";
+            res += "Precio: " + key + " Usuario: " + history.get(key).getIdUser() + " : " + history.get(key).getName() + "\n";
         }
         return res;
     }

@@ -1,7 +1,5 @@
 package model;
 
-import view.SubastaHistory;
-
 import java.time.LocalDate;
 
 public class Subasta {
